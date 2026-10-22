@@ -32,6 +32,7 @@
     <div>
       <h1>NoteIt</h1>
       <p>Notas, dibujos, listas y tareas. En todos tus dispositivos, al instante.</p>
+      <p id="version" style="font-weight:600"></p>
     </div>
   </header>
 
@@ -64,5 +65,11 @@
   <footer>Entra en todas con "Continuar con Google". Las apps se actualizan solas desde Ajustes → Actualizaciones.<br>
   Aplicación desarrollada por Guillermo Ríos Correa · <a href="privacidad.html">Privacidad</a></footer>
 </main>
+<script>
+  // La web se publica junto con las apps: su versión es la última.
+  fetch('version.json?t=' + Date.now()).then(r => r.json()).then(v => {
+    document.getElementById('version').textContent = 'Última versión: ' + v.version;
+  }).catch(() => {});
+</script>
 </body>
 </html>
