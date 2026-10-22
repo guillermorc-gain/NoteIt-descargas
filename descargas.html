@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Descargar NoteIt</title>
+<link rel="icon" href="favicon.png">
+<style>
+  :root { --bg:#F4F5FA; --card:#fff; --ink:#151830; --muted:#5B6180; --line:#DFE2EE; --accent:#5B3FD2; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0E1020; --card:#171A2D; --ink:#E8EAF5; --muted:#9BA1BE; --line:#272B45; --accent:#A48BFF; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); line-height:1.55;
+         padding: 40px max(16px, env(safe-area-inset-left)) 64px max(16px, env(safe-area-inset-right)); }
+  main { max-width: 760px; margin: 0 auto; display: grid; gap: 24px; }
+  header { display:flex; align-items:center; gap:16px; }
+  header img { width:64px; height:64px; border-radius:16px; }
+  h1 { margin:0; font-size:2rem; letter-spacing:-.02em; }
+  header p { margin:2px 0 0; color:var(--muted); }
+  .open { display:inline-block; padding:12px 18px; border-radius:12px; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; display:grid; gap:8px; align-content:start; }
+  .card h2 { margin:0; font-size:1.05rem; }
+  .card a.dl { display:inline-block; padding:8px 12px; border-radius:9px; border:1px solid var(--accent); color:var(--accent); text-decoration:none; font-weight:600; width:fit-content; }
+  .card ol { margin:0; padding-left:18px; color:var(--muted); font-size:.92rem; }
+  footer { color:var(--muted); font-size:.9rem; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icons/Icon-192.png" alt="">
+    <div>
+      <h1>NoteIt</h1>
+      <p>Notas, dibujos, listas y tareas. En todos tus dispositivos, al instante.</p>
+    </div>
+  </header>
+
+  <p><a class="open" href="./">Abrir NoteIt en el navegador</a></p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Android</h2>
+      <a class="dl" href="https://github.com/guillermorc-gain/NoteIt-descargas/releases/latest/download/NoteIt-android.apk">Descargar APK</a>
+      <ol><li>Ábrelo desde el móvil.</li><li>Permite "instalar apps de esta fuente".</li><li>Instalar. Widget: mantén pulsada la pantalla de inicio → Widgets → NoteIt.</li></ol>
+    </section>
+    <section class="card">
+      <h2>Mac (Apple Silicon)</h2>
+      <a class="dl" href="https://github.com/guillermorc-gain/NoteIt-descargas/releases/latest/download/NoteIt-macos.zip">Descargar para Mac</a>
+      <ol><li>Descomprime y arrastra NoteIt a Aplicaciones.</li><li>La primera vez: clic derecho → Abrir → Abrir.</li></ol>
+    </section>
+    <section class="card">
+      <h2>Windows</h2>
+      <a class="dl" href="https://github.com/guillermorc-gain/NoteIt-descargas/releases/latest/download/NoteIt-windows-x64.zip">Descargar (Intel/AMD)</a>
+      <a class="dl" href="https://github.com/guillermorc-gain/NoteIt-descargas/releases/latest/download/NoteIt-windows-arm64.zip">Descargar (ARM)</a>
+      <ol><li>Descomprime en una carpeta tuya y abre NoteIt.exe.</li><li>Si sale SmartScreen: Más información → Ejecutar de todas formas.</li></ol>
+    </section>
+    <section class="card">
+      <h2>Web</h2>
+      <a class="dl" href="./">Abrir en el navegador</a>
+      <ol><li>En Chrome o Edge, pulsa el icono de instalar de la barra de direcciones para tenerla como app.</li></ol>
+    </section>
+  </div>
+
+  <footer>Entra en todas con "Continuar con Google". Las apps se actualizan solas desde Ajustes → Actualizaciones.<br>
+  Aplicación desarrollada por Guillermo Ríos Correa · <a href="privacidad.html">Privacidad</a></footer>
+</main>
+</body>
+</html>
