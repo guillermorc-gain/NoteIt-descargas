@@ -37423,7 +37423,7 @@ if(s!=null)J.ic(r,"Authorization","Bearer "+s)
 J.ic(r,"Content-Type","application/json")
 J.ic(r,"Prefer","return=minimal")
 o=$.H_().b
-if(o.length===0)o="1.3.0"
+if(o.length===0)o="1.3.1"
 n=J.bQ(k)>2000?J.bI8(k,0,2000):k
 A.bY1(q,B.ad.p6(A.B(["platform","web","app_version",o,"message",n,"stack",b==null?l:A.f0(A.c(b.j(0).split("\n"),t.s),0,A.hg(40,"count",t.S),p).bi(0,"\n")],p,t.T),l),l,r).eG(new A.ayQ(),new A.ayR(),t.P)}catch(m){}},
 bL1(){var s,r
