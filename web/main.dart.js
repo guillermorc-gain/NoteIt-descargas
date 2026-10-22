@@ -37085,7 +37085,7 @@ if(s!=null)J.i5(r,"Authorization","Bearer "+s)
 J.i5(r,"Content-Type","application/json")
 J.i5(r,"Prefer","return=minimal")
 o=$.GE().b
-if(o.length===0)o="1.1.2"
+if(o.length===0)o="1.1.3"
 n=J.bU(k)>2000?J.bFM(k,0,2000):k
 A.bVz(q,B.af.qb(A.B(["platform","web","app_version",o,"message",n,"stack",b==null?l:A.eY(A.c(b.j(0).split("\n"),t.s),0,A.h8(40,"count",t.S),p).bu(0,"\n")],p,t.T),l),l,r).eG(new A.ay6(),new A.ay7(),t.P)}catch(m){}},
 bIG(){var s,r
