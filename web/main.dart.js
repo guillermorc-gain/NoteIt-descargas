@@ -137493,7 +137493,7 @@ A.auD.prototype={
 $0(){return A.rh(A.d6(this.a.a,0,null),B.jo,null)},
 $S:0}
 A.auE.prototype={
-$0(){return A.rh(A.d6("https://noteit.vercel.app/descargas.html",0,null),B.jo,null)},
+$0(){return A.rh(A.d6("https://noteit-suite.vercel.app/descargas.html",0,null),B.jo,null)},
 $S:0}
 A.wg.prototype={
 ac(){return new A.agx(new A.f2(B.dV,$.as()))}}
