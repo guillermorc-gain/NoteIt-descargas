@@ -43496,7 +43496,7 @@ if(s!=null)J.dF(r,"Authorization","Bearer "+s)
 J.dF(r,"Content-Type","application/json")
 J.dF(r,"Prefer","return=minimal")
 o=$.Ed().c
-if(o.length===0)o="1.8.0"
+if(o.length===0)o="1.8.1"
 n=J.bS(k)>2000?J.c84(k,0,2000):k
 A.cr_(q,B.ak.qc(A.D(["platform","web","app_version",o,"message",n,"stack",b==null?l:A.eN(A.c(b.j(0).split("\n"),t.s),0,A.fM(40,"count",t.S),p).bO(0,"\n")],p,t.T),l),l,r).h7(new A.aKt(),new A.aKu(),t.P)}catch(m){}},
 cbf(){var s,r
