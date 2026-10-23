@@ -1,6 +1,6 @@
 {
-    "name": "NoteIt",
-    "short_name": "NoteIt",
+    "name": "Note It!",
+    "short_name": "Note It!",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F4F5FA",
