@@ -42374,7 +42374,7 @@ if(s!=null)J.dp(r,"Authorization","Bearer "+s)
 J.dp(r,"Content-Type","application/json")
 J.dp(r,"Prefer","return=minimal")
 o=$.nf().c
-if(o.length===0)o="1.16.2"
+if(o.length===0)o="1.16.3"
 n=J.bw(k)>2000?J.bMu(k,0,2000):k
 A.csu(q,B.Z.je(A.D(["platform","web","app_version",o,"message",n,"stack",b==null?l:A.eP(A.c(b.j(0).split("\n"),t.s),0,A.fT(40,"count",t.S),p).bq(0,"\n")],p,t.T),l),l,r).fD(new A.aKg(),new A.aKh(),t.P)}catch(m){}},
 ccm(){var s,r
@@ -171772,7 +171772,7 @@ d=j[f].a
 e.l(0,"id",d[2])
 e.l(0,"lat",d[3])
 e.l(0,"lon",d[5])
-e.l(0,"radius",150)
+e.l(0,"radius",300)
 e.l(0,"title",d[7])
 e.l(0,"body",d[1])
 e.l(0,"note",d[6])
